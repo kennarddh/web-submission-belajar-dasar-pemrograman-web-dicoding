@@ -74,6 +74,38 @@ main section#hero .wave {
 	left: 0;
 }
 
+main section#articles {
+	background-color: #ffa500;
+	color: #1f4690;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main section#articles .content {
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+main section#articles .content article {
+	width: 30%;
+    padding: 10px 20px;
+
+	box-shadow: 0 4px 8px 0 #3a5aa088;
+	transition: 0.3s;
+}
+
+main section#articles .content article:hover {
+	box-shadow: 0 8px 16px 0 #3a5aa088;
+}
+
 @media screen and (max-width: 1024px) {
 	main section#hero .wave {
 		display: none;
