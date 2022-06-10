@@ -115,6 +115,7 @@ main section#articles .content article img {
 main section#articles .content article main {
 	margin: 0;
 	margin-top: 10px;
+	padding: 0 10px;
 }
 
 @media screen and (max-width: 1024px) {
