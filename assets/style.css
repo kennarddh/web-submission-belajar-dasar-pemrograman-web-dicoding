@@ -40,3 +40,29 @@ header nav li a {
 header nav li {
 	list-style: none;
 }
+
+main {
+    margin-top: 50px;
+}
+
+main section#hero {
+    background-color: #3a5ba0;
+    color: #ffe5b4;
+    padding: 100px 0;
+    text-align: center;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section#hero aside p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+main section#hero aside img {
+    width: 200px;
+}
