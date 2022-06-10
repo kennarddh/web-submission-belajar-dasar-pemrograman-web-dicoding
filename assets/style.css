@@ -42,27 +42,41 @@ header nav li {
 }
 
 main {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 main section#hero {
-    background-color: #3a5ba0;
-    color: #ffe5b4;
-    padding: 100px 0;
-    text-align: center;
-    height: calc(100vh - 50px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	background-color: #3a5ba0;
+	color: #ffe5b4;
+	text-align: center;
+	height: calc(100vh - 50px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
 }
 
 main section#hero aside p {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 1rem;
 }
 
 main section#hero aside img {
-    width: 200px;
+	width: clamp(20%, 40%, 60%);
+}
+
+main section#hero .wave {
+	width: 100vw;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	main section#hero .wave {
+		display: none;
+	}
 }
