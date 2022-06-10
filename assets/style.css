@@ -96,7 +96,6 @@ main section#articles .content {
 }
 
 main section#articles .content article {
-	padding: 10px 0;
 	width: 350px;
 	height: 700px;
 
@@ -111,6 +110,11 @@ main section#articles .content article:hover {
 main section#articles .content article img {
 	width: 350px;
 	height: 350px;
+}
+
+main section#articles .content article main {
+	margin: 0;
+	margin-top: 10px;
 }
 
 @media screen and (max-width: 1024px) {
