@@ -92,11 +92,13 @@ main section#articles .content {
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
+	flex-wrap: wrap;
 }
 
 main section#articles .content article {
-	width: 30%;
-    padding: 10px 20px;
+	padding: 10px 0;
+	width: 350px;
+	height: 700px;
 
 	box-shadow: 0 4px 8px 0 #3a5aa088;
 	transition: 0.3s;
@@ -104,6 +106,11 @@ main section#articles .content article {
 
 main section#articles .content article:hover {
 	box-shadow: 0 8px 16px 0 #3a5aa088;
+}
+
+main section#articles .content article img {
+	width: 350px;
+	height: 350px;
 }
 
 @media screen and (max-width: 1024px) {
