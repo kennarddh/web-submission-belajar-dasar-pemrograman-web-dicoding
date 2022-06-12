@@ -170,6 +170,7 @@ main section#contactus form {
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
+	margin-bottom: 200px;
 }
 
 main section#contactus form .input-group {
@@ -225,6 +226,13 @@ main section#contactus form button:hover {
 
 main section#contactus form button:focus {
 	outline: 2px solid #ffa500;
+}
+
+main section#contactus .wave {
+	width: 100%;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
 }
 
 footer {
