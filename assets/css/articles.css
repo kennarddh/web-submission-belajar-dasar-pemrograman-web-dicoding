@@ -1,0 +1,97 @@
+main section#articles {
+	background-color: #ffa500;
+	color: #1f4690;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+main section#articles .content {
+	margin-top: 10px;
+	margin-bottom: 200px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+main section#articles .content article {
+	width: 350px;
+	height: 700px;
+
+	background-color: #ffe5b4;
+
+	border-radius: 0 0 10px 10px;
+
+	box-shadow: 0 4px 8px 0 #3a5aa088;
+	transition: 0.3s;
+}
+
+main section#articles .content article:hover {
+	box-shadow: 0 8px 16px 0 #3a5aa088;
+}
+
+main section#articles .content article img {
+	width: 350px;
+	aspect-ratio: 1/1;
+}
+
+main section#articles .content article main {
+	margin: 0;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+main section#articles .content article main p {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+main section#articles .content article main h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+main section#articles .wave {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+main section#articles .wave svg {
+	position: absolute;
+	bottom: -5px;
+}
+
+@media screen and (max-width: 480px) {
+	main section#articles .content article {
+		width: 90%;
+	}
+
+	main section#articles .content article img {
+		width: 100%;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	main section#articles .wave {
+		display: none;
+	}
+
+	main section#articles {
+		padding-top: 50px;
+	}
+
+	main section#articles .content {
+		margin-bottom: 0;
+	}
+}

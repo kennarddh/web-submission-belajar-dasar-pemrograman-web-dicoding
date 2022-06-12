@@ -1,0 +1,98 @@
+main section#contactus {
+	background-color: #3a5ba0;
+	color: #1f4690;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	color: #ffe5b4;
+}
+
+main section#contactus form {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 200px;
+}
+
+main section#contactus form .input-group {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+}
+
+main section#contactus form .input-group input,
+main section#contactus form .input-group textarea {
+	width: 100%;
+	padding: 20px 10px;
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: #1f4690;
+	background-color: #ffe5b4;
+	transition: 0.3s;
+}
+
+main section#contactus form .input-group input {
+	height: 40px;
+}
+
+main section#contactus form .input-group textarea {
+	height: 100px;
+}
+
+main section#contactus form .input-group input:focus,
+main section#contactus form .input-group textarea:focus {
+	outline: 2px solid #ffa500;
+}
+
+main section#contactus form button {
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: #1f4690;
+	background-color: #ffe5b4;
+	transition: 0.3s;
+	align-self: flex-start;
+}
+
+main section#contactus form button:hover {
+	background-color: #ffa500;
+}
+
+main section#contactus form button:focus {
+	outline: 2px solid #ffa500;
+}
+
+main section#contactus .wave {
+	width: 100%;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	main section#contactus .wave {
+		display: none;
+	}
+
+	main section#contactus form {
+		width: 80%;
+		margin-bottom: 0;
+	}
+
+	main section#contactus {
+		padding-top: 50px;
+	}
+}
