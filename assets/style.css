@@ -250,4 +250,13 @@ footer {
 	main section#articles .wave {
 		display: none;
 	}
+
+	main section#contactus form {
+		width: 80%;
+		margin-bottom: 0;
+	}
+
+	main section#contactus {
+		padding-top: 50px;
+	}
 }
