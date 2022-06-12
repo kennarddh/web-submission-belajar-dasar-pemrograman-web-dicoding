@@ -46,6 +46,7 @@ nav li {
 }
 
 header .toggle-nav {
+	display: none;
 	background-color: transparent;
 	outline: none;
 	border: none;
