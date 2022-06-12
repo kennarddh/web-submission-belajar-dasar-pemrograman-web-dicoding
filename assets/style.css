@@ -101,6 +101,8 @@ main section#articles .content article {
 
 	background-color: #ffe5b4;
 
+	border-radius: 0 0 10px 10px;
+
 	box-shadow: 0 4px 8px 0 #3a5aa088;
 	transition: 0.3s;
 }
