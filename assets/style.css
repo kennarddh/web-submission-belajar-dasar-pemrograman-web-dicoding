@@ -76,7 +76,7 @@ main section#hero .wave {
 
 main section#articles {
 	background-color: #ffa500;
-	color: #1F4690;
+	color: #1f4690;
 	padding: 50px;
 	display: flex;
 	flex-direction: column;
@@ -98,6 +98,8 @@ main section#articles .content {
 main section#articles .content article {
 	width: 350px;
 	height: 700px;
+
+	background-color: #ffe5b4;
 
 	box-shadow: 0 4px 8px 0 #3a5aa088;
 	transition: 0.3s;
