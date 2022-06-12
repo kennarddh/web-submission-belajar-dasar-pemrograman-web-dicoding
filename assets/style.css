@@ -86,10 +86,12 @@ main section#articles {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	position: relative;
 }
 
 main section#articles .content {
 	margin-top: 10px;
+	margin-bottom: 200px;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -135,6 +137,18 @@ main section#articles .content article main p {
 main section#articles .content article main h3 {
 	font-size: 20px;
 	font-weight: 700;
+}
+
+main section#articles .wave {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+main section#articles .wave svg {
+	position: absolute;
+	bottom: -5px;
 }
 
 @media screen and (max-width: 1024px) {
