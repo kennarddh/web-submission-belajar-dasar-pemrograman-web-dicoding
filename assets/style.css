@@ -50,7 +50,7 @@ nav li {
 }
 
 header nav {
-	transition: opacity 1s linear;
+	transition: opacity 0.2s linear;
 }
 
 header .toggle-nav {
