@@ -81,7 +81,7 @@ main section#hero .wave {
 main section#articles {
 	background-color: #ffa500;
 	color: #1f4690;
-	padding: 50px;
+	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
