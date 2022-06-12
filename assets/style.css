@@ -53,6 +53,10 @@ header nav {
 	transition: opacity 0.2s linear;
 }
 
+header nav ul li a:focus {
+	outline: 2px solid #ffa500;
+}
+
 header .toggle-nav {
 	display: none;
 	background-color: transparent;
@@ -290,6 +294,10 @@ footer {
 	justify-content: space-around;
 	align-items: center;
 	padding: 20px 0;
+}
+
+footer nav ul li a:focus {
+	outline: 2px solid #1f4690;
 }
 
 @media screen and (max-width: 1024px) {
