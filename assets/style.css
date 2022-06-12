@@ -30,18 +30,18 @@ header h1 {
 	font-weight: 400;
 }
 
-header nav ul {
+nav ul {
 	display: flex;
 	align-items: center;
 	gap: 20px;
 }
 
-header nav li a {
+nav li a {
 	color: inherit;
 	text-decoration: none;
 }
 
-header nav li {
+nav li {
 	list-style: none;
 }
 
@@ -225,6 +225,15 @@ main section#contactus form button:hover {
 
 main section#contactus form button:focus {
 	outline: 2px solid #ffa500;
+}
+
+footer {
+	background-color: #ffa500;
+	color: #1f4690;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0;
 }
 
 @media screen and (max-width: 1024px) {
