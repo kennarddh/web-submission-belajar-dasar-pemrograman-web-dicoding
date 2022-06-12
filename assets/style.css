@@ -11,6 +11,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+.preload * {
+	transition: none !important;
+}
+
 header {
 	background-color: #3a5ba0;
 	color: #ffe5b4;
@@ -43,6 +47,10 @@ nav li a {
 
 nav li {
 	list-style: none;
+}
+
+header nav {
+	transition: opacity 1s linear;
 }
 
 header .toggle-nav {
@@ -324,5 +332,43 @@ footer {
 
 	main section#articles .content article img {
 		flex-direction: column;
+	}
+
+	header .toggle-nav {
+		display: block;
+	}
+
+	header nav {
+		position: absolute;
+		left: 0;
+		top: 50px;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		background-color: #ffe5b4;
+		color: #1f4690;
+		height: 200px;
+		opacity: 0;
+		font-size: 20px;
+	}
+
+	header nav ul {
+		flex-direction: column;
+	}
+
+	header nav.showing {
+		display: flex;
+		opacity: 1;
+	}
+
+	header nav {
+		display: flex;
+	}
+
+	header nav ul li:first-child {
+		padding-top: 0px;
+	}
+	header nav ul li:last-child {
+		padding-bottom: 0px;
 	}
 }
