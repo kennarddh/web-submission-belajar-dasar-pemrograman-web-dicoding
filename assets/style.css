@@ -7,6 +7,10 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 header {
 	background-color: #3a5ba0;
 	color: #ffe5b4;
