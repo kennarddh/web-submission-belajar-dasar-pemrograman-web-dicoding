@@ -116,6 +116,7 @@ main section#hero aside h2 {
 
 main section#hero aside img {
 	width: clamp(20%, 40%, 60%);
+	aspect-ratio: 1/1;
 }
 
 main section#hero .wave {
@@ -166,6 +167,7 @@ main section#articles .content article:hover {
 
 main section#articles .content article img {
 	width: 350px;
+	aspect-ratio: 1/1;
 }
 
 main section#articles .content article main {
