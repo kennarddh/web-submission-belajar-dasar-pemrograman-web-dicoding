@@ -151,8 +151,65 @@ main section#articles .wave svg {
 	bottom: -5px;
 }
 
+main section#contactus {
+	background-color: #3a5ba0;
+	color: #1f4690;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	color: #ffe5b4;
+}
+
+main section#contactus form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+main section#contactus form .input-group {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: flex-start;
+	width: 30%;
+}
+
+main section#contactus form .input-group input,
+main section#contactus form .input-group textarea {
+	width: 100%;
+	padding: 20px 10px;
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: #1f4690;
+	background-color: #ffe5b4;
+	transition: 0.3s;
+}
+
+main section#contactus form .input-group input {
+	height: 40px;
+}
+
+main section#contactus form .input-group textarea {
+	height: 100px;
+}
+
+main section#contactus form .input-group input:focus,
+main section#contactus form .input-group textarea:focus {
+	outline: 2px solid #ffa500;
+}
+
 @media screen and (max-width: 1024px) {
-	main section#hero .wave {
+	main section#hero .wave,
+	main section#articles .wave {
 		display: none;
 	}
 }
