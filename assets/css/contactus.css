@@ -82,6 +82,11 @@ main section#contactus form button:disabled {
 	cursor: not-allowed;
 }
 
+main section#contactus form button#send {
+	opacity: 0;
+	transition: 0.2s;
+}
+
 main section#contactus .wave {
 	width: 100%;
 	position: absolute;
