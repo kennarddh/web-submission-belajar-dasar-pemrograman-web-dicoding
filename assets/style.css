@@ -361,11 +361,4 @@ footer {
 	header nav {
 		display: flex;
 	}
-
-	header nav ul li:first-child {
-		padding-top: 0px;
-	}
-	header nav ul li:last-child {
-		padding-bottom: 0px;
-	}
 }
