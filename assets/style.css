@@ -119,7 +119,6 @@ main section#articles .content article:hover {
 
 main section#articles .content article img {
 	width: 350px;
-	height: 350px;
 }
 
 main section#articles .content article main {
@@ -251,6 +250,14 @@ footer {
 		display: none;
 	}
 
+	main section#articles {
+		padding-top: 50px;
+	}
+
+	main section#articles .content {
+		margin-bottom: 0;
+	}
+
 	main section#contactus form {
 		width: 80%;
 		margin-bottom: 0;
@@ -264,5 +271,19 @@ footer {
 @media screen and (max-width: 767px) {
 	footer nav {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	main section#articles .content article {
+		width: 90%;
+	}
+
+	main section#articles .content article img {
+		width: 100%;
+	}
+
+	main section#articles .content article img {
+		flex-direction: column;
 	}
 }
