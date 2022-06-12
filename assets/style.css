@@ -328,9 +328,6 @@ footer {
 
 	main section#articles .content article img {
 		width: 100%;
-	}
-
-	main section#articles .content article img {
 		flex-direction: column;
 	}
 
